@@ -150,6 +150,8 @@ let popupcontent = d.querySelector('div#myModal p')
       }
     }
   }
+  // carousel text save
+  
 }
 
 

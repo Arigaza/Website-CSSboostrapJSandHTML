@@ -14,9 +14,9 @@
     
 }
 
-.carousel-inner {
+.carousel-inner, .carousel-inner>img, .carousel-item {
     overflow: hidden;
-    max-height: 650px;
+    max-height: 645px;
 }
 
   
@@ -27,7 +27,7 @@
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 1000000000; /* Sit on top */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -61,26 +61,18 @@
     cursor: pointer;
   }
   
-  /* Modal Body */
-  .modal-body {padding: 2px 16px;}
-
-
-  
-  /* Modal Content */
-  .modal-content {
-    position: relative;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 0;
-    border: 1px solid #888;
-    width: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    animation-name: animatetop;
-    animation-duration: 0.4s
-  }
-  
   /* Add Animation */
   @keyframes animatetop {
     from {top: -300px; opacity: 0}
     to {top: 0; opacity: 1}
+  }
+
+  /* tabselector */
+
+  #tabselector>div:hover {
+    cursor: pointer;
+  }
+
+  #footer {
+    background-color: #fefefe;
   }
