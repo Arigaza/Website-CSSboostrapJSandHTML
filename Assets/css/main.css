@@ -8,6 +8,16 @@
     column-rule: 1px double #dee2e6;
 }
 
+/* remove 3 columns mediaquery */
+@media (max-width: 768px) {
+  .autocol {
+    column-count: 1 ;
+    column-gap: unset;
+    /* margin-left: 5px; */
+    column-rule:unset;
+    padding: 15px;
+  }
+}
 .carousel-inner:img {
     width: 100%;
     height: auto;
