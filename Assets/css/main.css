@@ -28,7 +28,9 @@
     overflow: hidden;
     max-height: 645px;
 }
-
+.carousel-caption {
+  background-color: rgba(0,0,0,0.4);
+}
   
 
 /* modal */
